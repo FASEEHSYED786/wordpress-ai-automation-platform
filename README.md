@@ -1,13 +1,22 @@
-# AI Content Automation Plugin (WordPress)
+# AI Automation Platform (WordPress + Laravel + React)
 
-A custom WordPress plugin that integrates AI to generate, manage, and automate content directly within the admin dashboard.
+Production-style demo of a full-stack automation system.
+
+## Architecture
+- WordPress plugin (REST API gateway)
+- Laravel API (business logic)
+- React dashboard (UI)
 
 ## Features
-- AI content generation via API
-- Admin dashboard interface
-- Save generated content as draft posts
-- Logging system
-- Scalable plugin architecture
+- AI content generation (mocked)
+- REST API integration
+- React admin UI
+- Logging-ready structure
 
 ## Setup
-Replace YOUR_API_KEY_HERE in includes/api-handler.php
+1. Upload WordPress plugin to /wp-content/plugins/
+2. Run Laravel: php artisan serve
+3. Run React: npm install && npm start
+
+## Notes
+This is a demo system using mocked AI responses (no API key required).
